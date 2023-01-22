@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhaka naka</title>
+    <!-- Tailwind Css file  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              mycolor: "#FECC02",
+            },
+          },
+        },
+      };
+    </script>
+    <!--Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code&family=Manrope:wght@500&family=Open+Sans&family=Oswald&family=Playfair+Display:wght@500&family=Poppins:wght@600&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-['Bebas']">
+    <header>
+      <nav
+        class="container mx-auto py-12 md:flex justify-between space-y-3 text-center"
+      >
+        <h1 class="uppercase text-2xl font-semibold">Jhaka naka Production</h1>
+        <ul
+          class="md:flex space-x-5 text-xl font-semibold space-y-2 items-center"
+        >
+          <li>About Us</li>
+          <li>Ours Movies</li>
+          <li>Services</li>
+        </ul>
+      </nav>
+      <!-- header banner  -->
+      <div
+        class="bg-[url('./images/banner.jpg')] bg-cover bg-no-repeat h-screen flex items-center"
+      >
+        <div class="container mx-auto space-y-4">
+          <h3 class="text-xl text-white font-semibold uppercase">
+            Movie production studio
+          </h3>
+          <h1 class="text-8xl font-bold uppercase">
+            <span class="text-white">Films MAde to</span> <br /><span
+              class="text-mycolor"
+              >Perfection</span
+            >
+          </h1>
+          <p class="text-white text-xl">
+            Its of me whom no from the not much more, at truly of adore
+            stock.Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Vitae, cum.
+          </p>
+          <button
+            class="px-6 py-4 border border-white text-white text-2xl font-semibold rounded-lg hover:text-black hover:bg-white"
+          >
+            Discover me
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- main section  -->
+    <main class="my-16">
+      <!-- FIlming Experience  -->
+      <section class="container mx-auto border border-black p-8">
+        <div class="grid md:grid-cols-2 gap-32">
+          <div class="relative">
+            <div>
+              <img class="h-screen" src="./images/camera-man.jpg" alt="" />
+            </div>
+            <h1 class="absolute text-4xl px-16 py-4 bg-white bottom-0">
+              23 YEARS of EXPERIENCE
+            </h1>
+          </div>
+          <div class="space-y-80">
+            <div>
+              <h6 class="text-xl font-semibold">About Us</h6>
+              <h2 class="text-6xl font-bold">
+                FIlming Experience <br />
+                Just Got better
+              </h2>
+            </div>
+            <button
+              class="px-6 py-4 border border-gray-400 text-2xl font-semibold rounded-lg hover:text-white hover:bg-black"
+            >
+              Discover me
+            </button>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-3 py-5 gap-5 space-y-5">
+          <div class="space-y-5">
+            <div class="h-1 bg-black"></div>
+            <h2 class="text-5xl font-semibold uppercase">Our Vision</h2>
+            <p class="text-xl">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              aut libero deserunt facilis dolorum ratione.
+            </p>
+          </div>
+          <div class="space-y-5">
+            <div class="h-1 bg-black"></div>
+            <h2 class="text-5xl font-semibold uppercase">Our Mission</h2>
+            <p class="text-xl">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              aut libero deserunt facilis dolorum ratione.
+            </p>
+          </div>
+          <div class="space-y-5">
+            <div class="h-1 bg-black"></div>
+            <h2 class="text-5xl font-semibold uppercase">Our Motto</h2>
+            <p class="text-xl">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              aut libero deserunt facilis dolorum ratione.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Movie collection -->
+      <section class="bg-[#4E4E4E] my-12 py-8">
+        <div class="text-white container mx-auto flex justify-between">
+          <div>
+            <h5 class="font-semibold uppercase">Our Movies</h5>
+            <h1 class="text-6xl font-bold uppercase">Movie Collection</h1>
+          </div>
+          <div>
+            <button
+              class="px-6 py-4 border border-white text-white text-2xl font-semibold rounded-lg hover:text-black hover:bg-white uppercase ring-rose-300"
+            >
+              See More Movies
+            </button>
+          </div>
+        </div>
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 py-5 justify-around container mx-auto"
+        >
+          <div class="">
+            <img
+              class="border border-x-white p-8"
+              src="./images/tenet.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="border border-x-white p-8"
+              src="./images/inception.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="border border-x-white p-8"
+              src="./images/interstellar.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="border border-x-white p-8"
+              src="./images/fractured.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- what we offer -->
+      <section class="container mx-auto">
+        <div class="uppercase text-center py-10">
+          <h5 class="text-xl font-semibold">services</h5>
+          <h1 class="text-6xl font-bold">what we offer</h1>
+        </div>
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-8 p-5 text-center gap-8 justify-center"
+        >
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/camera.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">3d Movies</h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/theater.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">Flim Maker</h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/3d-glasss.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">
+                Studio Production
+              </h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/film.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">Drama movies</h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/rim.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">
+                Rolling Production
+              </h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img
+              class="mx-auto"
+              src="./images/icons/director-chair.png"
+              alt=""
+            />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">movie Production</h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/cut-board.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">Actor Action</h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+          <div class="border border-black py-8 px-5 space-y-5">
+            <img class="mx-auto" src="./images/icons/count-down.png" alt="" />
+            <div class="hover:text-slate-400 hover:font-extrabold space-y-4">
+              <h4 class="text-2xl font-semibold uppercase">movies Director</h4>
+              <p class="font-semibold">
+                Ex quam platea aliquet viverra si dictumst lobortis quis aliquam
+                dis eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- jhaka naka production -->
+    <footer class="bg-[url('./images/footer-bg.jpg')] my-10 py-8 space-y-16">
+      <div class="space-y-5 uppercase text-slate-400 text-center">
+        <h1 class="text-7xl font-bold">jhaka naka production</h1>
+        <h3 class="text-3xl font-semibold">next level experience</h3>
+        <p class="text-xl">
+          Feugiat nibh litora semper proin nullam facilisi<br />volutpat ex
+          ullamcorper.
+        </p>
+      </div>
+      <p class="text-white text-center">
+        Copyright &copy; 2021 Jhaka Naka Production, All rights reserved.
+        Present by <span class="text-orange-300">Ashik Faysal</span>
+      </p>
+    </footer>
+  </body>
+</html>
